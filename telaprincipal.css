@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background-image: url(Cópia\ de\ RH\ -\ TREINAMENTO.jpg);
+    background-size: cover;
+    margin-left: 0px;
+
+
+}
+
+header{
+    
+    
+    
+
+ 
+}
+.txt-link{
+    text-decoration: none;
+    font-family: 'Outfi' , sans-serif;
+    
+
+
+}
+ul{
+    list-style-type: none;
+    
+}
+
+
+icon{
+   
+}
+ul li.item-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px 4%;
+    position: relative;
+    left: 900px;
+    bottom: 75px;
+   
+
+    
+}

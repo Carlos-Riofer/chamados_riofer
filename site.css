@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background-image: url(Cópia\ de\ RH\ -\ TREINAMENTO.jpg) ;
+    background-size:cover;
+    
+}
+
+header{
+text-align: center;
+position: relative;
+top: 35px;
+
+
+
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li.item-menu a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 240px;
+    top:105px;
+    display: flex;
+    
+}
+ul li.item-menu a .txt-link{
+    margin-left: 10px;
+
+}
+.formulario {
+    position: relative;
+    top: 70px;
+    background: transparent;
+    border:2px solid rgba(211, 211, 211, 0.493) ;
+    border-radius: 8px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Ajuste o máximo conforme necessário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    backdrop-filter: blur(20px);
+}
+
+.campo {
+    margin-bottom: 10px; /* Espaçamento entre campos */
+    font-family: 'Outfi' , sans-serif;
+
+
+}
+
+label {
+    display: inline-block;
+    width: 100px; /* Largura dos labels, ajuste conforme necessário */
+    text-align: center; /* Alinha texto à direita dos labels */
+    
+
+}
+
+input {
+    width: calc(100% - 110px); /* Calcula a largura dos inputs considerando o width do label */
+    padding: 5px;
+    box-sizing: border-box; /* Garante que padding não aumente a largura */
+    border-radius: 5px; 
+    padding: 10px;
+    position: relative;
+    right: 45px;
+    top: 0px;
+    border: solid gray 1px;
+}
+
+.enviar {
+    width: 295px; /* Botão de enviar ocupa toda a largura disponível */
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+position: relative;
+left: 7px;
+border-radius: 8px;
+border: none;
+}
+.enviar:hover{
+    background-color: rgb(49, 49, 49);
+    transition: 0.5s;
+    
+}
+
+
+@media screen and (max-widht: 768px) {
+    .logo {
+        
+    }
+}
